@@ -1,0 +1,421 @@
+body
+{
+    margin:0;
+    padding:0;
+    
+}
+.h-100
+{
+    height:100;
+}
+.btnn
+{
+    background:none;
+    border:none;
+
+}
+.header-padding
+{
+    padding:8vh 13vh;
+}
+
+/* header css*/
+
+.ul-list
+{
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+.flex
+{
+    display:flex;
+}
+.logo
+{
+    padding:12px 15px ;
+    width:200px;
+  
+
+}
+.header
+{
+    
+    background: white; 
+    z-index:9;
+}
+  
+.list-items
+{
+    font-weight: 600;
+    
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+}
+.list-items img
+{
+    height:40px;
+    width:40px;
+    background-color: #d83434;
+    border-radius:50%;
+    padding:10px;
+}
+.list-items img:hover
+{
+    background-color: rgb(245, 161, 161);
+}
+.list-items a
+{
+    text-decoration: none;
+}
+
+/* section-1 css*/
+
+.sec1
+{
+    background-image: url(../images/sec1-bg.jpg);
+    background-size: cover;
+    border-bottom-left-radius: 35vh;
+    border-bottom-right-radius: 35vh;
+    height: fit-content;
+    width:100%;
+    padding-bottom:90px;
+    
+}
+.sec1-desc
+{
+    width: 40%;
+    display:flex;
+    align-items: left;
+    flex-direction: column;
+    padding-top: 20vh;
+    
+}
+.sec-desc-p1
+{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 23px;
+    color:#d83434;
+}
+.sec1-desc h1
+{
+    font-size: 52px;
+    margin-bottom: 20px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    font-weight: 900;
+}
+.sec-desc-p2
+{
+    font-size: 17px;
+    line-height: 1.7em;
+    margin-top: 0;
+    font-weight: 600;
+    color: #515c6a;
+}
+.sec-btn
+{
+    background-color:#d83434;
+    padding:15px 30px 15px 30px;
+    border-radius:20px;
+    color:white;
+}
+.sec-btn:hover
+{
+    box-shadow: 10px 12px 20px rgb(78 72 72); 
+    transition: ease-in-out 0.7s;
+}
+.link-text
+{
+    color:#544184;
+}
+
+/* Section-2 css*/
+
+.sec2-img
+{
+    height:350px;
+    
+}
+.sec2-desc
+{
+    
+    padding-top:3vh;
+    padding-left:30px;
+}
+.sec2-desc h2
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: "Poppins";
+    color: #35404e;
+}
+.sec2-desc p
+{
+    margin-bottom: 20px;
+    margin-top: 0;
+    box-sizing: border-box; 
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #515c6a;
+    line-height: 1.7em;
+}
+.sec2-btn
+{
+    outline: 0;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 14px;
+    padding: 12px 30px;
+    min-width: 120px;
+    display: inline-block;
+    cursor: pointer;
+    border: solid 1px #d83434;
+    color: #515c6a;
+    line-height: 1.7em;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    border-radius:5px;
+}
+.sec2
+{
+    padding: 90px 0 90px 0;
+}
+
+/* Section-3 CSS*/
+
+.serv-row-icon
+{
+    display: flex;
+
+}
+.sec3-desc h2
+{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #35404e;
+    overflow: hidden;
+}
+.icons-style
+{
+    height:50px;
+    width:50px;
+    
+}
+.icon-div
+{
+    margin-right:30px;
+    padding-top:16px;
+    
+}
+.icon-desc
+{
+    padding-right:15px;
+    text-align: left;
+}
+.sec3-desc p
+{
+    margin-bottom: 20px;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #515c6a;
+    line-height: 1.7em;
+}
+.sec3-style
+{
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #515c6a;
+    line-height: 1.7em;
+    padding-left: 15px;
+    padding-right:10px;
+}
+.sec3
+{
+    background-color: rgb(246, 247, 251);
+    padding: 90px 0 90px 0;
+}
+.serv-style
+{
+    font-size: 19px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #35404e;
+
+}
+.serv-para
+{
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #515c6a;
+    line-height: 1.7em;
+}
+.mb30
+{
+    margin-bottom:50px;
+    padding: 15px;
+
+}
+.sec3-desc
+{
+    margin-bottom: 40px;
+}
+/* Section-4 CSS */
+
+.sec4
+{
+    padding: 90px 0 90px 0;
+}
+.sec4-desc h2
+{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #35404e;
+}
+
+.free-sec
+{
+    width:100%
+}
+.free-btn
+{
+    padding: 12px 30px;
+    min-width: 120px;
+    outline: 0;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #d83434;
+    border-radius:10px;
+}
+
+/* Section-5 Css */
+
+.form-input
+{
+    width: 90%;
+    height: 3rem;
+    margin: 15px;
+    border-radius: 7px;
+    padding: 15px;
+    background: rgba(255,255,255,.5);
+    border:1px solid #6c757d;
+}
+.form-message
+{
+    width: 90%;  
+    height: 14rem;
+    border-radius: 7px;
+    padding:0 0 0 10px;
+    background: rgba(255,255,255,.5);
+    border: 1px solid #6c757d
+}
+.sec5
+{
+    background-color: rgb(246, 247, 251);
+    padding: 90px 0 90px 0;
+}
+.form-btn
+{
+    width:100%;
+    text-align: center;
+    margin-top:30px;
+}
+.cont-btn
+{
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 14px;
+    padding: 12px 30px;
+    min-width: 120px;
+    color: #fff;
+    background-color: #d83434;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgb(110, 106, 106);
+    margin-bottom: 15px;
+
+}
+.contact-info
+{
+    margin-bottom: 40px;
+}
+.media-obj-style
+{
+    height:50px;
+    width:50px;
+    margin-bottom: 20px;
+}
+.address
+{
+    margin-top:50px;
+}
+.contact-p1
+{
+    margin-bottom: .5rem;
+    margin-top: 0;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color:#d83434;
+}
+.second-para
+{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    
+}
+/* Footer Section */
+
+/* Footer Section */
+.bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    height: 35px;
+    text-decoration: none;
+   
+
+  }
+  .footer-p
+  {
+    text-align: center;
+    color: #fff;  
+    width:100%;  
+    margin-top:10px;
+    font-size: 11px;
+  }
+
+
+
