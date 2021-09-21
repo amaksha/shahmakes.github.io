@@ -23,11 +23,11 @@ body
 
 .ul-list
 {
-    list-style-type: none;
-    justify-content: space-around;
+    
+    justify-content: end;
     align-items: center;
-    margin: 0;
-    height: 100%;
+
+    
 }
 .flex
 {
@@ -40,23 +40,21 @@ body
   
 
 }
-.header
-{
-    
-    background: white; 
-    z-index:9;
-}
-  
-.list-items
+
+.list-items       
 {
     font-weight: 600;
-    
+    font-size:20px;
     text-decoration: none;
     text-align: center;
     outline: none;
     border-radius: 5px;
 }
-.list-items img
+.list-items1:hover
+{
+    color: #d83434 !important;
+}
+.nav-icons
 {
     height:40px;
     width:40px;
